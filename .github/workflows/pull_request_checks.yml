@@ -15,4 +15,6 @@ jobs:
       with:
         node-version: 16
         cache: 'yarn'
-    - run: yarn test
+    - run: yarn
+    - run: yarn run build
+    - run: yarn run test
